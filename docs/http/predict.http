@@ -1,0 +1,13 @@
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 21,
+  "overall": 70,
+  "potential": 85,
+  "wage_eur": 50000,
+  "club": "FC Example",
+  "position": "ST",
+  "nationality": "Brazil"
+}
+
